@@ -18,15 +18,21 @@
     combos {
         compatible = "zmk,combos";
 
-        shift_tab {
+        eigo {
             bindings = <&kp LANG2>;
             key-positions = <12 13>;
         };
 
-        lang {
+        nihongo {
             bindings = <&kp LANG1>;
             key-positions = <18 19>;
         };
+
+				kl_scroll {
+    				bindings = <&mo SCROLL>;
+    				key-positions = <19 20>;
+				};
+
     };
 
     behaviors {
