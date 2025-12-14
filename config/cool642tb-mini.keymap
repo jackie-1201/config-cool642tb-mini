@@ -32,7 +32,6 @@
     				bindings = <&mo SCROLL>;
     				key-positions = <19 20>;
 				};
-
     };
 
     behaviors {
