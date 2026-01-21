@@ -20,9 +20,7 @@
         18 // J
         19 // K
         20 // L
-        35 // LeftCtrl
     >;
-
     require-prior-idle-ms = <200>;
 };
 
@@ -30,7 +28,6 @@
     trackball_listener {
         compatible = "zmk,input-listener";
         device = <&trackball>;
-
         input-processors = <&zip_temp_layer 4 10000>;
     };
 };
