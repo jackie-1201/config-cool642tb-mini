@@ -82,10 +82,10 @@
 
         MOVE {
             bindings = <
-&trans  &trans  &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp INSERT                            &kp HOME        &kp RA(LEFT_ARROW)      &kp RA(UP_ARROW)  &kp RA(RIGHT_ARROW)      &kp END
-&trans  &trans  &kp TAB          &kp LEFT_ALT       &kp LEFT_CONTROL  &trans      &trans  &kp LEFT_ARROW  &kp DOWN_ARROW          &kp UP_ARROW      &kp RIGHT_ARROW          &trans
-&trans  &trans  &trans           &trans             &trans            &trans      &trans  &kp PAGE_DOWN   &kp RS(RG(LEFT_ARROW))  &kp RG(UP_ARROW)  &kp RS(RG(RIGHT_ARROW))  &kp PAGE_UP
-&trans  &trans  &trans           &trans             &trans            &trans      &trans  &trans                                                                             &kp RA(F4)
+&trans  &trans  &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp INSERT                                &kp HOME        &kp RA(LEFT_ARROW)      &kp RA(UP_ARROW)  &kp RA(RIGHT_ARROW)      &kp END
+&trans  &trans  &kp TAB          &kp LEFT_ALT       &kp LEFT_CONTROL  &trans          &trans  &kp LEFT_ARROW  &kp DOWN_ARROW          &kp UP_ARROW      &kp RIGHT_ARROW          &trans
+&trans  &trans  &trans           &trans             &trans            &trans          &trans  &kp PAGE_DOWN   &kp RS(RG(LEFT_ARROW))  &kp RG(UP_ARROW)  &kp RS(RG(RIGHT_ARROW))  &kp PAGE_UP
+&trans  &trans  &trans           &trans             &trans            &kp DELETE      &trans  &trans                                                                             &kp RA(F4)
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
