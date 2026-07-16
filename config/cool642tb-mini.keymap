@@ -35,6 +35,12 @@
             bindings = <&kp TAB>;
             key-positions = <13 3>;
         };
+
+        shift+F10 {
+            bindings = <&kp LS(F10)>;
+            key-positions = <4 14>;
+            layers = <0>;
+        };
     };
 
     behaviors {
@@ -84,7 +90,7 @@
             bindings = <
 &trans      &kp RG(N1)  &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp INSERT                                &kp HOME        &kp RA(LEFT_ARROW)      &kp RA(UP_ARROW)  &kp RA(RIGHT_ARROW)      &kp END
 &kp RG(N4)  &kp RG(N2)  &kp TAB          &kp LEFT_ALT       &kp LEFT_CONTROL  &trans          &trans  &kp LEFT_ARROW  &kp DOWN_ARROW          &kp UP_ARROW      &kp RIGHT_ARROW          &trans
-&trans      &kp RG(N3)  &trans           &trans             &trans            &trans          &trans  &kp PAGE_DOWN   &kp RS(RG(LEFT_ARROW))  &kp RG(UP_ARROW)  &kp RS(RG(RIGHT_ARROW))  &kp PAGE_UP
+&trans      &kp RG(N3)  &kp LC(TAB)      &kp LC(LS(TAB))    &trans            &trans          &trans  &kp PAGE_DOWN   &kp RS(RG(LEFT_ARROW))  &kp RG(UP_ARROW)  &kp RS(RG(RIGHT_ARROW))  &kp PAGE_UP
 &trans      &trans      &trans           &trans             &trans            &kp DELETE      &trans  &trans                                                                             &kp RA(F4)
             >;
 
